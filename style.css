@@ -1,0 +1,19 @@
+* {
+    --playerSize: 150px;
+    margin: 0;
+    padding: 0;
+}
+div {
+    border: solid 5px;
+    position: absolute;
+}
+.player1 {
+    width: var(--playerSize);
+    height: var(--playerSize);
+    background-color: red;
+}
+.player2 {
+    width: var(--playerSize);
+    height: var(--playerSize);
+    background-color: rgb(0, 8, 255);
+}
